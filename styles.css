@@ -1,0 +1,85 @@
+body {
+  
+    background-image: url('img/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #title, #description{
+    color: white;
+  }
+  .radius, .checkbox{
+    float: right;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  #description{
+    font-weight: bold;
+  }
+  /* Form styles */
+  #survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff; 
+    border-radius: 25px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .comments{
+    display:inline-block;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative; /* Change to relative positioning */
+    clear: both; /* Ensure proper clearing of floats */
+}
+  
+@media (max-width: 460px) {
+  #title, #description{
+    color: black;
+  }
+  #survey-form {
+    max-width: 600px;
+    margin: 0 0 0 8%;
+  }
+}
